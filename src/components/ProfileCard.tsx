@@ -21,7 +21,7 @@ function ProfileCard() {
     return (
         <>
             <div
-                className="bg-white rounded-4xl shadow-2xl shadow-gray-500/50 p-6 w-full md:w-3/5 h-fit  mx-auto absolute top-1/5   left-1/2 transform -translate-x-1/2">
+                className="bg-white rounded-4xl shadow-2xl shadow-gray-500/50 p-6 w-sm md:w-3/5 h-fit  mx-auto absolute top-1/5   left-1/2 transform -translate-x-1/2">
                 <div className="flex justify-between mt-5 relative">
                     <div className="flex gap-2">
                         <Users/>
@@ -39,7 +39,7 @@ function ProfileCard() {
                     </div>
 
                 </div>
-                <div className="flex justify-center items-center  mt-15">
+                <div className="flex justify-center items-center mt-5  md:mt-15">
                     <div className="text-center">
                     <div>
                         <h1 className="text-2xl font-bold mt-5">John Doe</h1>

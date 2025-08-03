@@ -15,7 +15,7 @@ import Link from "next/link";
 export function LogInCard() {
     return (
         <div >
-            <Card className="w-full max-w-sm">
+            <Card className=" w-sm">
                 <CardHeader>
                     <CardTitle>Login to your account</CardTitle>
                     <CardDescription>

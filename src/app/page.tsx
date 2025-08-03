@@ -7,15 +7,20 @@ import {ToggleMode} from "@/components/ToggleMode";
 export default function Home() {
   return (
     <>
-      {/*<Input/>*/}
+      {/*/!*<Input/>*!/*/}
+      {/*  <div className="w-screen h-screen flex  items-center justify-center">*/}
+      {/*      <div>*/}
+      {/*          <ToggleMode/>*/}
+      {/*          <LogInCard/>*/}
+      {/*      </div>*/}
+
+
+      {/*  </div>*/}
+        
         <div className="w-screen h-screen flex  items-center justify-center">
-            <div>
-                <ToggleMode/>
-                <LogInCard/>
-            </div>
-
-
+            <LogInCard/>
         </div>
+
 
     </>
   );
